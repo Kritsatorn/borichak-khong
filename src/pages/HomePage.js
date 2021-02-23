@@ -110,7 +110,7 @@ export default function HomePage() {
   };
   return (
     <div className="w-full h-screen bg-gray-100 ">
-      <header className="bg-yellow-300 text-center mt-8 text-5xl font-black ">
+      <header className="bg-yellow-300 text-center mt-8 py-8 text-5xl font-black ">
         BORICHAK KHONG
       </header>
       <div className=" mt-10 flex space-x-24 justify-center">
