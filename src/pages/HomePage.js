@@ -65,7 +65,8 @@ const DonateTaker = ({ Things, TrackCode }) => {
         />
       </form>
       <div className="mt-4 text-center font-bold text-2xl text-green-700">
-        {open ? ` Hooray this is Things ${Things}  ` : null}
+        {open ? ` Hooray this is Things :   ` : null}
+        <span className="text-pink-500"> {open ? ` ${Things}  ` : null} </span>
       </div>
     </div>
   );
